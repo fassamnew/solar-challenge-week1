@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 @st.cache
 def load_data():
     benin = pd.read_csv("../data/benin_clean.csv")
-    sierra_leone = pd.read_csv("../data/sierra_leone_clean.csv")
+    sierra_leone = pd.read_csv("../data/sierraleone_clean.csv")
     togo = pd.read_csv("../data/togo_clean.csv")
     benin["Country"] = "Benin"
     sierra_leone["Country"] = "Sierra Leone"
